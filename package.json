@@ -1,0 +1,23 @@
+{
+  "name": "buscacep_pageobject1",
+  "version": "1.0.0",
+  "description": "Exemplo POM V1",
+  "main": "protractor.conf.js",
+  "dependencies": {
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "webdriver-manager update && protractor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avieiravalle/BuscaCep_PageObject_V1.git"
+  },
+  "author": "Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avieiravalle/BuscaCep_PageObject_V1/issues"
+  },
+  "homepage": "https://github.com/avieiravalle/BuscaCep_PageObject_V1#readme"
+}
