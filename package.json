@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Exemplo POM V1",
   "main": "protractor.conf.js",
-  "dependencies": {
-    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "webdriver-manager update && protractor"
