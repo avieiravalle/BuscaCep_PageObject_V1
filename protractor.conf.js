@@ -1,5 +1,3 @@
-const SpecReporter = require("jasmine-spec-reporter").SpecReporter;
-
 module.exports.config = {
   baseUrl: 'http://infinite-savannah-93746.herokuapp.com',
   specs: ['./e2e/*.js'],
@@ -15,18 +13,6 @@ module.exports.config = {
   },
   onPrepare: () => {
     browser.ignoreSynchronization = true;
-    jasmine.getEnv().addReporter(new SpecReporter({
-      displayFailuresSummary: true,
-      displayFailedSpec: true,
-      displaySuiteNumber: true,
-      displaySpecDuration: true,
-    }));
-  },
-  jasmineNodeOpts: {
-    onComplete: null,
-    isVerbose: false,
-    showColors: true,
-    includeStackTrace: true,
   },
   // highlightDelay: 3000,
 };
