@@ -5,7 +5,7 @@ module.exports.config = {
     browserName: 'chrome',
     chromeOptions: {
       args: [
-        "--headless",
+       //"--headless",
         "--disable-gpu",
         "--window-size=1024,768",
       ],
@@ -14,5 +14,5 @@ module.exports.config = {
   onPrepare: () => {
     browser.ignoreSynchronization = true;
   },
-  // highlightDelay: 3000,
+  highlightDelay: 2000,
 };
