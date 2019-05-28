@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "webdriver-manager update && protractor"
+    "test": "protractor"
   },
   "repository": {
     "type": "git",
